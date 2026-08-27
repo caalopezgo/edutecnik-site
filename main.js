@@ -1,4 +1,4 @@
-/* Edutecnik — idioma (ES/EN), estado del header y reveal al hacer scroll.
+/* Edutecnik: idioma (ES/EN), estado del header y reveal al hacer scroll.
    El HTML se sirve en español; el inglés vive en atributos data-en / data-en-html. */
 
 (function () {
@@ -7,8 +7,8 @@
   var STORAGE_KEY = 'edutecnik:lang';
 
   var TITLES = {
-    es: 'Edutecnik — Inteligencia académica para profesores',
-    en: 'Edutecnik — Academic intelligence for instructors',
+    es: 'Edutecnik: Inteligencia académica para profesores',
+    en: 'Edutecnik: Academic intelligence for instructors',
   };
 
   /** Texto directo de un elemento, ignorando hijos como el SVG de la flecha. */
