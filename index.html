@@ -1,32 +1,30 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Edutecnik | IA para calificar trabajos y exámenes</title>
+    <title>Edutecnik | AI Grading Tool for Professors</title>
     <meta
       name="description"
-      content="Herramienta de IA para profesores que ayuda a calificar trabajos, exámenes y tareas con tus propias rúbricas, generar feedback y preparar clases. La IA sugiere; el profesor decide."
-      data-en="AI grading tool for professors and teachers. Grade assignments and exams with your own rubrics, generate feedback, and prepare classes. AI suggests; the professor decides."
+      content="AI grading tool for professors and instructors. Grade assignments and exams with your own rubrics, draft personalized feedback, and prepare classes faster. You review and approve every suggestion."
     />
     <meta name="theme-color" content="#ffffff" />
     <meta name="color-scheme" content="light" />
     <link rel="canonical" href="https://www.edutecnik.com/" />
+    <link rel="alternate" hreflang="en" href="https://www.edutecnik.com/" />
+    <link rel="alternate" hreflang="es" href="https://www.edutecnik.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.edutecnik.com/" />
     <link rel="icon" type="image/png" href="/assets/edutecnik-mark.png?v=2" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Edutecnik" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="https://www.edutecnik.com/" />
-    <meta
-      property="og:title"
-      content="Edutecnik | IA para calificar trabajos y exámenes"
-      data-en="Edutecnik | AI grading tool for professors and teachers"
-    />
+    <meta property="og:title" content="Edutecnik | AI Grading Tool for Professors" />
     <meta
       property="og:description"
-      content="Califica trabajos, exámenes y tareas con tus propias rúbricas, genera feedback y prepara clases con IA. La IA sugiere; el profesor decide."
-      data-en="Grade assignments and exams with your own rubrics, generate feedback, and prepare classes with AI. AI suggests; the professor decides."
+      content="Grade assignments and exams with your own rubrics, draft personalized student feedback, and prepare classes faster. AI suggests; the professor decides."
     />
     <meta property="og:image" content="https://www.edutecnik.com/og-image.png" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -38,551 +36,303 @@
   </head>
 
   <body>
-    <a class="skip-link" href="#main" data-en="Skip to content">Saltar al contenido</a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="header" id="header">
       <div class="wrap header__inner">
         <a class="brand" href="#top" aria-label="Edutecnik">
-          <img src="assets/edutecnik-mark.png" alt="Edutecnik logo" class="brand__mark" />
+          <img src="/assets/edutecnik-mark.png" alt="Edutecnik logo" class="brand__mark" />
           <span class="brand__name">Edutecnik</span>
         </a>
 
-        <nav class="nav" aria-label="Principal">
-          <a href="#producto" data-en="Product">Producto</a>
-          <a href="#como-funciona" data-en="How it works">Cómo funciona</a>
-          <a href="#entrar" data-en="Two ways in">Cómo empezar</a>
-          <a href="#para-quien" data-en="Who it's for">Para quién</a>
-          <a href="#confianza" data-en="Trust">Confianza</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#product">Product</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#getting-started">Getting started</a>
+          <a href="#for-whom">Who it's for</a>
+          <a href="#trust">Trust</a>
         </nav>
 
         <div class="header__actions">
-          <div class="lang" role="group" aria-label="Idioma / Language">
-            <button type="button" data-lang="es" aria-pressed="true">ES</button>
-            <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <div class="lang" role="group" aria-label="Language">
+            <button type="button" data-lang="es" aria-pressed="false">ES</button>
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
           </div>
-          <a
-            class="btn btn--primary btn--sm"
-            href="#contacto"
-            data-en="Request access"
-            >Solicitar acceso</a
-          >
+          <a class="btn btn--primary btn--sm" href="#contact">Request access</a>
         </div>
       </div>
     </header>
 
     <main id="main">
-      <!-- HERO -->
       <section class="hero" id="top">
         <div class="wrap hero__grid">
           <div>
-            <p class="eyebrow eyebrow--brand" data-en="Edutecnik: academic intelligence">
-              Edutecnik: inteligencia académica
-            </p>
-
-            <h1
-              class="display hero__title"
-              data-en-html="AI suggests.<br /><span class=&quot;muted&quot;>The professor decides.</span>"
-            >
-              La IA sugiere.<br /><span class="muted">El profesor decide.</span>
+            <p class="eyebrow eyebrow--brand">AI grading for professors</p>
+            <h1 class="display hero__title">
+              AI grading that keeps<br /><span class="muted">the professor in control.</span>
             </h1>
-
-            <p
-              class="lead hero__lead"
-              data-en="Edutecnik is an academic intelligence layer for instructors and academic units. Bring your syllabus, your PDFs, your rubrics: we draft feedback, lesson plans, and a course view that is actually about your class. Nothing counts until you approve it."
-            >
-              Edutecnik es una capa de inteligencia académica para profesores y unidades
-              académicas. Trae tu programa, tus PDFs, tus rúbricas: redactamos
-              retroalimentación, planes de clase y una vista real de tu curso. Nada cuenta hasta que
-              tú lo apruebas.
+            <p class="lead hero__lead">
+              Grade assignments and exams with your own rubrics, draft personalized student feedback,
+              and prepare classes faster. Edutecnik suggests; you review, edit, and approve.
             </p>
 
             <div class="cta-row hero__ctas">
-              <a class="btn btn--primary" href="#contacto" data-en="Request access"
-                >Solicitar acceso
-                <svg
-                  class="arrow"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2.2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
+              <a class="btn btn--primary" href="#contact">
+                Request access
+                <svg class="arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </a>
-              <a class="btn btn--secondary" href="#como-funciona" data-en="See how it works"
-                >Ver cómo funciona</a
-              >
+              <a class="btn btn--secondary" href="#how-it-works">See how it works</a>
             </div>
 
-            <p
-              class="fine hero__fine"
-              data-en="Instructor pilot · Work email, no access code · No LMS required to start"
-            >
-              Piloto para profesores · Correo institucional, sin código de acceso · No requiere LMS
-              para empezar
+            <p class="fine hero__fine">
+              Instructor pilot · Work email · No LMS required to get started
             </p>
           </div>
 
-          <!-- Vistazo al producto -->
           <div class="glimpse" aria-hidden="true">
             <div class="glimpse__bar">
               <span class="glimpse__dot"></span>
               <span class="glimpse__dot"></span>
               <span class="glimpse__dot"></span>
-              <span class="glimpse__url">edutecnik · Cálculo I</span>
+              <span class="glimpse__url">edutecnik · Calculus I</span>
             </div>
             <div class="glimpse__body">
               <div class="glimpse__head">
-                <p class="glimpse__course" data-en="Calculus I: Fall">Cálculo I, Otoño</p>
-                <span class="pill pill--accent" data-en="Edutecnik read your syllabus"
-                  ><span class="pill__dot"></span>Edutecnik leyó tu programa</span
-                >
+                <p class="glimpse__course">Calculus I, Fall</p>
+                <span class="pill pill--accent"><span class="pill__dot"></span>Edutecnik read your syllabus</span>
               </div>
-
               <div class="glimpse__rows">
                 <div class="grow">
-                  <p class="grow__label" data-en="Grading">Evaluación</p>
-                  <p class="grow__value" data-en-html="Midterms 40%<span class=&quot;sep&quot;>·</span>Homework 25%<span class=&quot;sep&quot;>·</span>Final 35%">
-                    Parciales 40%<span class="sep">·</span>Tareas 25%<span class="sep">·</span>Final
-                    35%
-                  </p>
+                  <p class="grow__label">Grading</p>
+                  <p class="grow__value">Midterms 40%<span class="sep">·</span>Homework 25%<span class="sep">·</span>Final 35%</p>
                 </div>
                 <div class="grow">
-                  <p class="grow__label" data-en="Meets">Sesiones</p>
-                  <p class="grow__value" data-en-html="Tue &amp; Thu<span class=&quot;sep&quot;>·</span>10:00–11:20<span class=&quot;sep&quot;>·</span>Room 214">
-                    Martes y jueves<span class="sep">·</span>10:00–11:20<span class="sep">·</span>Aula
-                    214
-                  </p>
+                  <p class="grow__label">Meets</p>
+                  <p class="grow__value">Tue & Thu<span class="sep">·</span>10:00–11:20<span class="sep">·</span>Room 214</p>
                 </div>
                 <div class="grow">
-                  <p class="grow__label" data-en="Next due">Próxima entrega</p>
-                  <p class="grow__value" data-en="Problem set 3, Sep 12">Tarea 3, 12 de sep</p>
+                  <p class="grow__label">Next due</p>
+                  <p class="grow__value">Problem set 3, Sep 12</p>
                 </div>
                 <div class="grow">
-                  <p class="grow__label" data-en="Your voice">Tu voz</p>
+                  <p class="grow__label">Your voice</p>
                   <p class="grow__value">4/7</p>
                   <div class="meter"><span class="meter__fill"></span></div>
                 </div>
               </div>
-
               <div class="glimpse__foot">
-                <span class="pill" data-en="You filled in nothing">Tú no llenaste nada</span>
-                <span class="pill" data-en="Drafts only, you approve">Solo borradores, tú apruebas</span>
+                <span class="pill">You filled in nothing</span>
+                <span class="pill">Drafts only, you approve</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- PRODUCTO -->
-      <section class="section section--muted" id="producto">
+      <section class="section section--muted" id="product">
         <div class="wrap">
           <div class="section__head reveal">
-            <p class="eyebrow" data-en="The product">El producto</p>
-            <h2 class="h2" data-en-html="Edutecnik is the intelligence layer<br /><span class=&quot;muted&quot;>over your course, not another LMS.</span>">
-              Edutecnik es la capa de inteligencia<br /><span class="muted"
-                >sobre tu curso, no otro LMS.</span
-              >
-            </h2>
-            <p
-              class="lead"
-              data-en="Your LMS stores courses and clicks. It does not help you grade at 11pm, prepare Thursday's class, or notice that half the group missed the same rubric criterion. Edutecnik does that, from material you already have."
-            >
-              Tu LMS guarda cursos y clics. No te ayuda a calificar a las once de la noche, ni a
-              preparar la clase del jueves, ni a notar que medio grupo falló el mismo criterio de la
-              rúbrica. Edutecnik sí, a partir del material que ya tienes.
+            <p class="eyebrow">The product</p>
+            <h2 class="h2">An AI grading assistant<br /><span class="muted">built around your course and your judgment.</span></h2>
+            <p class="lead">
+              Your LMS stores courses and clicks. Edutecnik helps with the academic work around them:
+              grading with your rubric, writing useful feedback, preparing class, and spotting recurring gaps.
             </p>
           </div>
 
           <div class="grid grid--3">
             <article class="card reveal">
               <span class="card__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                  <path d="M14 2v6h6" />
-                  <path d="M9 15l2 2 4-4" />
-                </svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l2 2 4-4"/></svg>
               </span>
-              <h3 class="h3" data-en="Assess">Evaluar</h3>
-              <p
-                class="body"
-                data-en="Grade this week, a photo, a PDF, or pasted text. We propose a score and comments against your own rubric, and you edit every one before it counts."
-              >
-                Califica esta misma semana, una foto, un PDF o texto pegado. Proponemos puntaje y
-                comentarios contra tu propia rúbrica, y tú editas cada uno antes de que cuente.
+              <h3 class="h3">Grade with your rubric</h3>
+              <p class="body">
+                Upload a PDF, image, or pasted assignment. Edutecnik proposes a score and comments against your own rubric; you edit every one before it counts.
               </p>
               <ul class="card__list">
-                <li data-en="Works with your rubric, not a generic one">Usa tu rúbrica, no una genérica</li>
-                <li data-en="Recurring gaps and weak criteria surface as you grade">Mientras calificas aparecen los vacíos recurrentes</li>
-                <li data-en="Nothing reaches a student unless you send it">Nada llega al estudiante si tú no lo envías</li>
+                <li>Your rubric, not a generic grading scheme</li>
+                <li>Draft feedback tied to specific criteria</li>
+                <li>No grade changes without your approval</li>
               </ul>
             </article>
 
             <article class="card reveal">
               <span class="card__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M12 3l1.9 4.6L18.5 9l-4.6 1.4L12 15l-1.9-4.6L5.5 9l4.6-1.4z" />
-                  <path d="M18 15l.9 2.1L21 18l-2.1.9L18 21l-.9-2.1L15 18l2.1-.9z" />
-                </svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 4.6L18.5 9l-4.6 1.4L12 15l-1.9-4.6L5.5 9l4.6-1.4z"/><path d="M18 15l.9 2.1L21 18l-2.1.9L18 21l-.9-2.1L15 18l2.1-.9z"/></svg>
               </span>
-              <h3 class="h3" data-en="Prepare">Preparar</h3>
-              <p
-                class="body"
-                data-en="Lesson plans, activities, and assessments drafted from your own materials, grounded in the PDFs and objectives you uploaded, not in a template."
-              >
-                Planes de clase, actividades y evaluaciones redactados a partir de tus propios
-                materiales, anclados en los PDFs y objetivos que subiste, no en una plantilla.
+              <h3 class="h3">Prepare class faster</h3>
+              <p class="body">
+                Draft lesson plans, activities, and assessments from your own syllabus, PDFs, learning objectives, and course materials.
               </p>
               <ul class="card__list">
-                <li data-en="Aligned to your course outcomes">Alineado a los objetivos de tu curso</li>
-                <li data-en="Cites the material it drew from">Muestra de qué material salió</li>
-                <li data-en="Export or copy it wherever you teach">Expórtalo a donde ya das clase</li>
+                <li>Aligned to your course outcomes</li>
+                <li>Grounded in material you uploaded</li>
+                <li>Copy or export wherever you teach</li>
               </ul>
             </article>
 
             <article class="card reveal">
               <span class="card__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M3 10.5L12 3l9 7.5" />
-                  <path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5" />
-                  <path d="M9 21v-6h6v6" />
-                </svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5L12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5"/><path d="M9 21v-6h6v6"/></svg>
               </span>
-              <h3 class="h3" data-en="Course home">Inicio del curso</h3>
-              <p
-                class="body"
-                data-en="Upload the syllabus and the course page answers the real questions: how is it graded, when does it meet, what is due, what does the term look like."
-              >
-                Sube el programa y la página del curso responde lo que de verdad importa: cómo se
-                califica, cuándo se reúne, qué se entrega y cómo se ve el semestre completo.
+              <h3 class="h3">See patterns across the course</h3>
+              <p class="body">
+                Turn the work you already grade into a clearer view of recurring misconceptions, weak rubric criteria, and what may need attention next.
               </p>
               <ul class="card__list">
-                <li data-en="No forms to fill in">Sin formularios que llenar</li>
-                <li data-en="Extracted facts, not generic paragraphs">Datos extraídos, no párrafos genéricos</li>
-                <li data-en="Correct anything we misread">Corriges cualquier cosa que hayamos leído mal</li>
+                <li>Course-level patterns from real grading</li>
+                <li>Human review before consequential action</li>
+                <li>Useful with or without an LMS</li>
               </ul>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- CÓMO FUNCIONA -->
-      <section class="section" id="como-funciona">
+      <section class="section" id="how-it-works">
         <div class="wrap">
           <div class="section__head reveal">
-            <p class="eyebrow" data-en="How it works">Cómo funciona</p>
-            <h2 class="h2" data-en="Four steps, and a human at the end of every one.">
-              Cuatro pasos, y una persona al final de cada uno.
-            </h2>
+            <p class="eyebrow">How it works</p>
+            <h2 class="h2">Four steps, with a human decision at the end of each.</h2>
           </div>
-
           <ol class="steps">
             <li class="step reveal">
               <p class="step__n">01</p>
-              <h3 class="h3" data-en="Import">Importar</h3>
-              <p
-                class="body"
-                data-en="Syllabus, PDFs, rubrics, assignments, student work. Or connect your LMS when your campus is ready."
-              >
-                Programa, PDFs, rúbricas, tareas, trabajos de estudiantes. O conecta tu LMS cuando tu
-                campus esté listo.
-              </p>
+              <h3 class="h3">Import</h3>
+              <p class="body">Bring your syllabus, PDFs, rubrics, assignments, and student work.</p>
             </li>
             <li class="step reveal">
               <p class="step__n">02</p>
-              <h3 class="h3" data-en="Analyze and draft">Analizar y redactar</h3>
-              <p
-                class="body"
-                data-en="We read the material and produce drafts: feedback, lesson plans, assessments, patterns across the class."
-              >
-                Leemos el material y producimos borradores: retroalimentación, planes de clase,
-                evaluaciones y patrones del grupo.
-              </p>
+              <h3 class="h3">Analyze and draft</h3>
+              <p class="body">Edutecnik drafts grades, rubric-based feedback, lesson plans, assessments, and course patterns.</p>
             </li>
             <li class="step reveal">
               <p class="step__n">03</p>
-              <h3 class="h3" data-en="Review and approve">Revisar y aprobar</h3>
-              <p
-                class="body"
-                data-en="You edit, approve, or discard. No grade changes, no messages sent, no decisions made without you."
-              >
-                Editas, apruebas o descartas. Ninguna calificación cambia, ningún mensaje sale,
-                ninguna decisión ocurre sin ti.
-              </p>
+              <h3 class="h3">Review and approve</h3>
+              <p class="body">You edit, approve, or discard. No consequential decision is made without you.</p>
             </li>
             <li class="step reveal">
               <p class="step__n">04</p>
-              <h3 class="h3" data-en="Deliver">Entregar</h3>
-              <p
-                class="body"
-                data-en="Copy or export what you approved. With an LMS connected, publish it back into the system you already use."
-              >
-                Copia o exporta lo que aprobaste. Con un LMS conectado, se publica de vuelta en el
-                sistema que ya usas.
-              </p>
+              <h3 class="h3">Deliver</h3>
+              <p class="body">Copy or export what you approved. LMS integrations can later write approved work back to the systems you already use.</p>
             </li>
           </ol>
         </div>
       </section>
 
-      <!-- DOS PUERTAS -->
-      <section class="section section--muted" id="entrar">
+      <section class="section section--muted" id="getting-started">
         <div class="wrap">
           <div class="section__head reveal">
-            <p class="eyebrow" data-en="Two ways in">Dos formas de empezar</p>
-            <h2 class="h2" data-en="Your LMS is an upgrade, never a gate.">
-              El LMS es una mejora, nunca un requisito.
-            </h2>
-            <p
-              class="lead"
-              data-en="A professor can get real value this week without asking IT for anything. Connecting the LMS later unlocks rosters, live submissions, and early alerts."
-            >
-              Un profesor puede obtener valor real esta semana sin pedirle nada a sistemas. Conectar
-              el LMS después desbloquea listas, entregas en vivo y alertas tempranas.
-            </p>
+            <p class="eyebrow">Two ways to start</p>
+            <h2 class="h2">Your LMS can be an upgrade,<br /><span class="muted">not a gate.</span></h2>
+            <p class="lead">A professor can get value from Edutecnik using course files first. An LMS connection can add rosters, live submissions, and approved write-back later.</p>
           </div>
 
           <div class="grid grid--2">
             <article class="card card--door reveal">
-              <span class="pill card__badge" data-en="Available in the pilot"
-                ><span class="pill__dot"></span>Disponible en el piloto</span
-              >
+              <span class="pill card__badge"><span class="pill__dot"></span>Available in the pilot</span>
               <p class="card__doorlabel">A</p>
-              <h3 class="h3" data-en="Bring your course">Trae tu curso</h3>
-              <p
-                class="body"
-                data-en="Upload or paste syllabus, PDFs, rubrics, assignments and student work. Prepare, assess, and organize your course, no IT approval, no access code."
-              >
-                Sube o pega el programa, PDFs, rúbricas, tareas y trabajos. Prepara, evalúa y
-                organiza tu curso, sin aprobación de sistemas y sin código de acceso.
-              </p>
+              <h3 class="h3">Bring your course</h3>
+              <p class="body">Upload or paste your syllabus, PDFs, rubrics, assignments, and student work. Start grading and preparing without an LMS integration.</p>
               <ul class="card__list">
-                <li data-en="Work email, sign in, start the same day">Correo institucional, entras y empiezas el mismo día</li>
-                <li data-en="AI drafts on grading and preparation">Borradores de IA para calificar y preparar</li>
-                <li data-en="A course pulse built from what you actually grade">Un pulso del curso hecho con lo que de verdad calificas</li>
+                <li>Work email and private instructor account</li>
+                <li>AI drafts for grading and preparation</li>
+                <li>Course insights built from what you actually assess</li>
               </ul>
             </article>
 
             <article class="card card--door reveal">
-              <span class="pill card__badge" data-en="In development with partner campuses"
-                ><span class="pill__dot"></span>En desarrollo con campus aliados</span
-              >
+              <span class="pill card__badge"><span class="pill__dot"></span>Integration path</span>
               <p class="card__doorlabel">B</p>
-              <h3 class="h3" data-en="Connect your LMS">Conecta tu LMS</h3>
-              <p
-                class="body"
-                data-en="Canvas and others, through OAuth or LTI, set up with your campus. This is the superpower path, and we build it together with the instructors who want it."
-              >
-                Canvas y otros, vía OAuth o LTI, configurado con tu campus. Es el camino que
-                multiplica todo, y lo construimos junto con los profesores que lo quieren.
-              </p>
+              <h3 class="h3">Connect your LMS</h3>
+              <p class="body">Connect systems such as Canvas through approved campus integration paths when your institution is ready.</p>
               <ul class="card__list">
-                <li data-en="Live roster, submissions, and gradebook">Lista, entregas y libro de calificaciones en vivo</li>
-                <li data-en="Early alerts before the withdrawal deadline">Alertas tempranas antes de la fecha de baja</li>
-                <li data-en="Write approved work back into the LMS">Publicar de vuelta lo aprobado en el LMS</li>
+                <li>Rosters, submissions, and gradebook context</li>
+                <li>Earlier visibility into students who may need help</li>
+                <li>Write approved work back into the LMS</li>
               </ul>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- PARA QUIÉN -->
-      <section class="section" id="para-quien">
+      <section class="section" id="for-whom">
         <div class="wrap">
           <div class="section__head reveal">
-            <p class="eyebrow" data-en="Who it's for">Para quién</p>
-            <h2 class="h2" data-en="One layer, four kinds of academic work.">
-              Una sola capa, cuatro tipos de trabajo académico.
-            </h2>
-            <p
-              class="lead"
-              data-en="Instructors adopt it bottom-up. When the department is ready, the same layer already holds the evidence."
-            >
-              Los profesores lo adoptan desde abajo. Cuando el departamento está listo, esa misma
-              capa ya tiene la evidencia.
-            </p>
+            <p class="eyebrow">Who it's for</p>
+            <h2 class="h2">Built first for professors,<br /><span class="muted">useful across academic teams.</span></h2>
           </div>
-
           <ul class="roles">
             <li class="role reveal">
-              <p class="role__name" data-en="Instructors">Profesores</p>
-              <p
-                class="body"
-                data-en="Help with grading, preparing materials, and spotting who is slipping, from the course they are teaching right now."
-              >
-                Ayuda para calificar, preparar materiales y detectar quién se está quedando atrás, a partir del curso que están dando ahora mismo.
-              </p>
+              <p class="role__name">Professors and instructors</p>
+              <p class="body">Reduce grading and preparation workload while keeping academic judgment in faculty hands.</p>
             </li>
             <li class="role reveal">
-              <p class="role__name" data-en="Chairs and program directors">
-                Jefes de departamento y coordinadores
-              </p>
-              <p
-                class="body"
-                data-en="Visibility into curriculum coverage, course quality, and student outcomes, without taking judgment away from faculty."
-              >
-                Visibilidad de la cobertura curricular, la calidad de los cursos y los resultados de
-                los estudiantes, sin quitarle el criterio al profesorado.
-              </p>
+              <p class="role__name">Chairs and program directors</p>
+              <p class="body">See curriculum coverage, course quality signals, and outcomes without taking judgment away from instructors.</p>
             </li>
             <li class="role reveal">
-              <p class="role__name" data-en="Curriculum and assessment">Currículo y evaluación</p>
-              <p
-                class="body"
-                data-en="Alignment between learning outcomes, assignments, and how they are actually assessed, plus the gaps nobody had time to map."
-              >
-                Alineación entre objetivos de aprendizaje, tareas y cómo se evalúan realmente, además de los vacíos que nadie tuvo tiempo de mapear.
-              </p>
+              <p class="role__name">Curriculum and assessment</p>
+              <p class="body">Connect learning outcomes, assignments, rubrics, and how students are actually assessed.</p>
             </li>
             <li class="role reveal">
-              <p class="role__name" data-en="Administration and research">
-                Administración e investigación
-              </p>
-              <p
-                class="body"
-                data-en="Aggregated evidence, reports, and committee briefs, with governed access to instructional data."
-              >
-                Evidencia agregada, reportes y documentos para comités, con acceso gobernado a los
-                datos de enseñanza.
-              </p>
+              <p class="role__name">Academic administration</p>
+              <p class="body">Use governed, aggregated evidence for reports and academic decision support.</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <!-- CONFIANZA -->
-      <section class="section section--muted" id="confianza">
+      <section class="section section--muted" id="trust">
         <div class="wrap">
           <div class="section__head reveal">
-            <p class="eyebrow" data-en="Trust">Confianza</p>
-            <h2 class="h2" data-en="The rules Edutecnik is built on.">
-              Las reglas con las que está construido Edutecnik.
-            </h2>
+            <p class="eyebrow">Trust</p>
+            <h2 class="h2">AI assistance without giving away academic judgment.</h2>
           </div>
-
           <div class="trust reveal">
             <div class="trust__item">
-              <h3 class="h3" data-en="Human approval">Aprobación humana</h3>
-              <p
-                class="body"
-                data-en="No consequential action happens without a person approving it. We never change a grade, contact a student, or make an institutional decision on our own."
-              >
-                Ninguna acción con consecuencias ocurre sin que una persona la apruebe. No cambiamos
-                calificaciones, no contactamos estudiantes ni tomamos decisiones institucionales por
-                nuestra cuenta.
-              </p>
+              <h3 class="h3">Human approval</h3>
+              <p class="body">No consequential action happens without a person approving it. Edutecnik does not independently change a grade or contact a student.</p>
             </div>
             <div class="trust__item">
-              <h3 class="h3" data-en="Transparency">Transparencia</h3>
-              <p
-                class="body"
-                data-en="Drafts are labeled as drafts, and you can see which material a suggestion came from."
-              >
-                Los borradores se marcan como borradores, y siempre puedes ver de qué material salió
-                cada sugerencia.
-              </p>
+              <h3 class="h3">Rubric alignment</h3>
+              <p class="body">Grading suggestions are built around the instructor's criteria rather than a generic grading standard.</p>
             </div>
             <div class="trust__item">
-              <h3 class="h3" data-en="Traceability">Trazabilidad</h3>
-              <p
-                class="body"
-                data-en="Suggestions, edits, and decisions are recorded, so a department review has something real to look at."
-              >
-                Sugerencias, ediciones y decisiones quedan registradas, para que una revisión
-                departamental tenga algo real que mirar.
-              </p>
+              <h3 class="h3">Transparency</h3>
+              <p class="body">Drafts are labeled as drafts, and instructors can review the basis for suggestions.</p>
             </div>
             <div class="trust__item">
-              <h3 class="h3" data-en="Student privacy">Privacidad estudiantil</h3>
-              <p
-                class="body"
-                data-en="We remove names, IDs, and file names from student work before sending it to be processed. You still see who it is. Nothing you upload is used to train a model."
-              >
-                Quitamos nombres, identificadores y nombres de archivo del trabajo estudiantil
-                antes de enviarlo a procesar. Tú sigues viendo de quién es. Nada de lo que subes se
-                usa para entrenar un modelo.
-              </p>
+              <h3 class="h3">Traceability</h3>
+              <p class="body">Suggestions, edits, and decisions can be tracked so academic review has real evidence.</p>
             </div>
             <div class="trust__item">
-              <h3 class="h3" data-en="Role-based access">Acceso por rol</h3>
-              <p
-                class="body"
-                data-en="Instructor, chair, curriculum, administration: each role sees what belongs to it, under academic governance."
-              >
-                Profesor, jefatura, currículo, administración: cada rol ve lo que le corresponde,
-                bajo gobernanza académica.
-              </p>
+              <h3 class="h3">Student privacy</h3>
+              <p class="body">The product is designed to minimize exposure of identifying student information when work is processed.</p>
             </div>
             <div class="trust__item">
-              <h3 class="h3" data-en="Start without IT">Empieza sin sistemas</h3>
-              <p
-                class="body"
-                data-en="A professor should get value before the IT department is involved. That is a design rule, not a temporary workaround."
-              >
-                Un profesor debe obtener valor antes de que se involucre el departamento de sistemas.
-                Es una regla de diseño, no un parche temporal.
-              </p>
+              <h3 class="h3">Role-based access</h3>
+              <p class="body">Instructor, chair, curriculum, and administration roles can be governed according to institutional responsibilities.</p>
             </div>
-          </div>
-
-          <div class="notice reveal">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M12 3l7.5 3v5.5c0 4.6-3.1 8.4-7.5 9.5-4.4-1.1-7.5-4.9-7.5-9.5V6z" />
-              <path d="M9 12l2 2 4-4" />
-            </svg>
-            <p
-              class="fine"
-              data-en="Private instructor accounts. FERPA-conscious handling of course and student data. Nothing is sent to students or written back to an LMS unless you do it. We look at aggregate usage to improve the pilot."
-            >
-              Cuentas privadas de profesor. Manejo de datos de curso y estudiantes con conciencia
-              FERPA. Nada se envía a estudiantes ni se escribe de vuelta en un LMS a menos que tú lo
-              hagas. Revisamos uso agregado para mejorar el piloto.
-            </p>
           </div>
         </div>
       </section>
 
-      <!-- CIERRE -->
-      <section class="section" id="contacto">
+      <section class="section" id="contact">
         <div class="wrap closer reveal">
-          <p class="eyebrow" data-en="The pilot is open">El piloto está abierto</p>
-          <h2 class="h2" style="margin-top: 16px" data-en="Use it with a real class this term.">
-            Úsalo con un curso real este semestre.
-          </h2>
-          <p
-            class="lead"
-            data-en="If you are teaching right now, you can request access today with your work email. If you also want your LMS connected, we build that path with you."
-          >
-            Si estás dando clase ahora mismo, puedes solicitar acceso hoy con tu correo
-            institucional. Y si además quieres conectar tu LMS, construimos ese camino contigo.
-          </p>
+          <p class="eyebrow">Instructor pilot</p>
+          <h2 class="h2" style="margin-top: 16px">Interested in using Edutecnik with a real course?</h2>
+          <p class="lead">Request access with your institutional email. We can also talk with academic units interested in rubric-based AI grading, course preparation, or future LMS integration.</p>
           <div class="cta-row">
-            <a
-              class="btn btn--primary"
-              href="mailto:hola@edutecnik.com?subject=Edutecnik%20%E2%80%94%20solicitud%20de%20acceso"
-              data-en="Request access"
-              data-en-href="mailto:hola@edutecnik.com?subject=Edutecnik%20%E2%80%94%20access%20request"
-              >Solicitar acceso
-              <svg class="arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M5 12h14M13 6l6 6-6 6" />
-              </svg>
+            <a class="btn btn--primary" href="mailto:hola@edutecnik.com?subject=Edutecnik%20%E2%80%94%20access%20request">
+              Request access
+              <svg class="arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a
-              class="btn btn--secondary"
-              href="mailto:hola@edutecnik.com?subject=Edutecnik%20%E2%80%94%20piloto"
-              data-en="Talk to us"
-              data-en-href="mailto:hola@edutecnik.com?subject=Edutecnik%20%E2%80%94%20pilot"
-              >Escríbenos</a
-            >
+            <a class="btn btn--secondary" href="mailto:hola@edutecnik.com?subject=Edutecnik%20%E2%80%94%20pilot">Talk to us</a>
           </div>
-          <p class="fine" data-en="Or write to hola@edutecnik.com">
-            O escribe a hola@edutecnik.com
-          </p>
+          <p class="fine">Or write to hola@edutecnik.com</p>
         </div>
       </section>
     </main>
@@ -591,22 +341,20 @@
       <div class="wrap">
         <div class="footer__inner">
           <a class="brand" href="#top" aria-label="Edutecnik">
-            <img src="assets/edutecnik-mark.png" alt="Edutecnik logo" class="brand__mark" />
+            <img src="/assets/edutecnik-mark.png" alt="Edutecnik logo" class="brand__mark" />
             <span>Edutecnik</span>
-            <span class="brand__sub" data-en="· academic intelligence">· inteligencia académica</span>
+            <span class="brand__sub">· academic intelligence</span>
           </a>
-          <nav class="footer__links" aria-label="Pie de página">
-            <a href="#producto" data-en="Product">Producto</a>
-            <a href="#como-funciona" data-en="How it works">Cómo funciona</a>
-            <a href="#confianza" data-en="Trust">Confianza</a>
-            <a href="#contacto" data-en="Request access">Solicitar acceso</a>
-            <a href="mailto:hola@edutecnik.com" data-en="Contact">Contacto</a>
+          <nav class="footer__links" aria-label="Footer navigation">
+            <a href="#product">Product</a>
+            <a href="#how-it-works">How it works</a>
+            <a href="#trust">Trust</a>
+            <a href="#contact">Request access</a>
+            <a href="mailto:hola@edutecnik.com">Contact</a>
           </nav>
         </div>
         <div class="footer__legal">
-          <p class="fine" data-en="© 2026 Edutecnik. AI suggests; the professor decides.">
-            © 2026 Edutecnik. La IA sugiere; el profesor decide.
-          </p>
+          <p class="fine">© 2026 Edutecnik. AI suggests; the professor decides.</p>
         </div>
       </div>
     </footer>
