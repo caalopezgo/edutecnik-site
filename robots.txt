@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://edutecnik.com/sitemap.xml
+Sitemap: https://www.edutecnik.com/sitemap.xml
