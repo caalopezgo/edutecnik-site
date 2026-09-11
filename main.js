@@ -1,4 +1,4 @@
-/* Edutecnik: language routing, header state, and reveal-on-scroll. */
+/* Edutecnik: language routing, access email, header state, and reveal-on-scroll. */
 
 (function () {
   'use strict';
@@ -6,6 +6,25 @@
   function isSpanishPath() {
     return window.location.pathname === '/es' || window.location.pathname.indexOf('/es/') === 0;
   }
+
+  function syncAccessEmail() {
+    var oldEmail = 'hola@edutecnik.com';
+    var newEmail = 'acceso@edutecnik.com';
+    var mailLinks = document.querySelectorAll('a[href^="mailto:' + oldEmail + '"]');
+
+    for (var i = 0; i < mailLinks.length; i++) {
+      mailLinks[i].setAttribute('href', mailLinks[i].getAttribute('href').replace(oldEmail, newEmail));
+    }
+
+    var fineText = document.querySelectorAll('.fine');
+    for (var j = 0; j < fineText.length; j++) {
+      if (fineText[j].textContent.indexOf(oldEmail) !== -1) {
+        fineText[j].textContent = fineText[j].textContent.replace(oldEmail, newEmail);
+      }
+    }
+  }
+
+  syncAccessEmail();
 
   document.addEventListener('click', function (event) {
     var button = event.target.closest ? event.target.closest('.lang button[data-lang]') : null;
